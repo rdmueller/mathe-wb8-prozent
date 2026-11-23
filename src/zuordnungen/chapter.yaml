@@ -1,0 +1,12 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Zuordnungen
+summary: Tabellen und Koordinatensystem, proportionale und antiproportionale Zuordnungen und ihre Graphen – mit dem Test, der wirklich entscheidet.
+pages: [tabelle-koordinaten, proportional, antiproportional, graphen]
+# The chapter's self-assessment: one step, one exercise per page (generated where possible), in course order.
+selfAssessment:
+  pages:
+    - exercises:
+        - /zuordnungen/tabelle-koordinaten/#tabelle-koordinaten-taxi
+        - /zuordnungen/proportional/#proportional-preis
+        - /zuordnungen/antiproportional/#antiproportional-helfer
+        - /zuordnungen/graphen/#graphen-gerade
